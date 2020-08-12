@@ -12,8 +12,6 @@ class Course(models.Model):
     session_ids = fields.One2many('openacademy.session', 'course_id')
 
 
-
-
 class Session(models.Model):
     _name = 'openacademy.session'
     _description = "openacademy session of test"
